@@ -17,6 +17,10 @@ p {
     font-family: Lato, sans-serif;
 }
 
+hr {
+    border: 1px solid black;
+}
+
 /*hamburger-menu*/
 .hamburger-menu {
     background: rgba(0, 0, 0, .9);
@@ -62,9 +66,7 @@ p {
 }
 
 .video {
-    width: 100px;
-    height: 100px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .about-me {
@@ -88,12 +90,17 @@ p {
 @media screen and (min-width: 320px) and (max-width: 480px) {
 
     .home {
-        padding-top: 25px;
+        padding-top: 54px;
         padding-left: 35px;
     }
 
     .home>p {
         padding: 5px 10px;
+    }
+
+    .video {
+        width: 287px;
+        height: 159px;
     }
 
     .about-me>p,
@@ -115,6 +122,11 @@ p {
         padding: 5px 10px;
     }
 
+    .video {
+        width: 452px;
+        height: 254px;
+    }
+
     .about-me>p,
     .pricing>p,
     .contact>p {
@@ -132,6 +144,11 @@ p {
 
     .home>p {
         padding: 5px 10px;
+    }
+
+    .video {
+        width: 555px;
+        height: 312px;
     }
 
     .about-me>p,
@@ -153,6 +170,12 @@ p {
         padding: 5px 10px;
     }
 
+    .video {
+        width: 470px;
+        height: 264px;
+        padding: 20px 14px;
+    }
+
     .about-me>p,
     .pricing>p,
     .contact>p {
@@ -164,12 +187,42 @@ p {
 @media screen and (min-width: 1201px) {
 
     .home {
-        padding-top: 25px;
+        padding-top: 400px;
         padding-left: 35px;
+        font-size: 160%;
+        width: 387px;
     }
 
     .home>p {
         padding: 5px 10px;
+    }
+
+    .portfolio {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .video {
+        width: 480px;
+        height: 270px;
+        padding: 25px 30px;
+    }
+
+    .about-me {
+        text-align: center;
+        background-color: #272f43;
+        color: #edecec;
+        padding-top: 25px;
+    }
+
+    .pricing {
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .contact {
+        text-align: center;
+        padding-top: 25px;
     }
 
     .about-me>p,
