@@ -4,3 +4,37 @@
     border: none;
     scroll-behavior: smooth;
 }
+
+/*hamburger-menu*/
+.hamburger-menu {
+    background: rgba(0, 0, 0, .9);
+    position: fixed;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+}
+
+.hamburger-menu #nav-bar {
+    display: none;
+}
+
+.hamburger-menu a {
+    color: #edecec;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.hamburger-menu a.icon {
+    background: black;
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.hamburger-menu a:hover {
+    background-color: #636c87;
+    color: #edecec;
+}
