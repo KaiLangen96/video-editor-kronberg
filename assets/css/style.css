@@ -58,18 +58,123 @@ p {
 
 .portfolio {
     text-align: center;
+    padding-top: 25px;
+}
+
+.video {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
 }
 
 .about-me {
     text-align: center;
     background-color: #272f43;
     color: #edecec;
+    padding-top: 25px;
 }
 
 .pricing {
     text-align: center;
+    padding-top: 25px;
 }
 
 .contact {
     text-align: center;
+    padding-top: 25px;
+}
+
+/*phone screen layout*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    .home {
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+
+    .home>p {
+        padding: 5px 10px;
+    }
+
+    .about-me>p,
+    .pricing>p,
+    .contact>p {
+        padding: 40px 25px;
+    }
+}
+
+/*tablet screen layout*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    .home {
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+
+    .home>p {
+        padding: 5px 10px;
+    }
+
+    .about-me>p,
+    .pricing>p,
+    .contact>p {
+        padding: 40px 25px;
+    }
+}
+
+/*laptop screen layout*/
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .home {
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+
+    .home>p {
+        padding: 5px 10px;
+    }
+
+    .about-me>p,
+    .pricing>p,
+    .contact>p {
+        padding: 40px 25px;
+    }
+}
+
+/*desktop screen layout*/
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+    .home {
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+
+    .home>p {
+        padding: 5px 10px;
+    }
+
+    .about-me>p,
+    .pricing>p,
+    .contact>p {
+        padding: 40px 25px;
+    }
+}
+
+/*TV screen layout*/
+@media screen and (min-width: 1201px) {
+
+    .home {
+        padding-top: 25px;
+        padding-left: 35px;
+    }
+
+    .home>p {
+        padding: 5px 10px;
+    }
+
+    .about-me>p,
+    .pricing>p,
+    .contact>p {
+        padding: 40px 25px;
+    }
 }
