@@ -9,7 +9,8 @@
 
 /*fonts*/
 h1,
-h2 {
+h2,
+h3 {
     font-family: Playfair Display, sans-serif;
 }
 
@@ -200,6 +201,11 @@ hr {
     .portfolio {
         text-align: center;
         padding-top: 25px;
+        font-size: 160%;
+    }
+
+    .portfolio>h3 {
+        padding-top: 18px;
     }
 
     .video {
@@ -213,11 +219,17 @@ hr {
         background-color: #272f43;
         color: #edecec;
         padding-top: 25px;
+        font-size: 160%;
     }
 
     .pricing {
         text-align: center;
         padding-top: 25px;
+        font-size: 160%;
+    }
+
+    .pricing>p {
+        font-size: ;
     }
 
     .contact {
@@ -229,5 +241,14 @@ hr {
     .pricing>p,
     .contact>p {
         padding: 40px 25px;
+        font-size: 70%;
     }
+}
+
+.home,
+.portfolio,
+.about-me,
+.pricing,
+.contact {
+    font-size: 160%;
 }
