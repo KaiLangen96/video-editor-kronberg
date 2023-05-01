@@ -54,8 +54,6 @@ p {
 /*sections*/
 .home {
     text-align: left;
-    background-color: #1d1d1d;
-    color: ;
 }
 
 .portfolio {
@@ -69,5 +67,9 @@ p {
 }
 
 .pricing {
+    text-align: center;
+}
+
+.contact {
     text-align: center;
 }
