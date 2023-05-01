@@ -61,3 +61,9 @@ p {
 .portfolio {
     text-align: center;
 }
+
+.about-me {
+    text-align: center;
+    background-color: #272f43;
+    color: #edecec;
+}
