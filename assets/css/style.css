@@ -7,6 +7,33 @@
     scroll-behavior: smooth;
 }
 
+/*fonts*/
+h1,
+h2,
+h3 {
+    font-family: Playfair Display, sans-serif;
+}
+
+p,
+span,
+table {
+    font-family: Lato, sans-serif;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #252A3B;
+}
+
+tr:nth-child(odd) {
+    background-color: #B0B9D4;
+}
+
 /*hamburger-menu*/
 .hamburger-menu {
     background: rgba(0, 0, 0, .9);
@@ -43,16 +70,28 @@
 
 /*sections*/
 .home {
-    background-image: url('../images/IMG_03971.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    background: url('../images/IMG_03971.jpg') no-repeat center center;
+    position: relative;
+}
+
+.cover-text {
+    position: absolute;
+}
+
+.home h1,
+.home p {
+    padding: 20px;
+    background-color: #252a3bd0;
+    color: #B0B9D4;
 }
 
 .portfolio {
     text-align: center;
     padding-top: 25px;
-    background-color: #636c87;
-    color: #edecec;
+    background-color: #636C87;
+    color: #B0B9D4;
 }
 
 .video {
@@ -61,19 +100,23 @@
 
 .about-me {
     text-align: center;
-    background-color: #272f43;
-    color: #edecec;
-    padding-top: 25px;
+    padding-top: 25px 0;
+    background-color: #252A3B;
+    color: #877D63;
 }
 
 .pricing {
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0;
+    background-color: #636C87;
+    color: #252A3B;
 }
 
 .contact {
     text-align: center;
-    padding-top: 25px;
+    padding: 25px 0;
+    background-color: #252A3B;
+    color: #877D63;
 }
 
 .footer {
@@ -85,9 +128,14 @@
     width: 100vw;
 }
 
+
 .footer a {
-    text-decoration: none;
+    text-decoration-line: none;
     color: white;
+}
+
+.socials li {
+    display: inline;
 }
 
 /*responsive layout
@@ -130,5 +178,43 @@ phone screen layout*/
         width: 480px;
         height: 270px;
         padding: 25px 30px;
+    }
+
+    h1,
+    h2 {
+        font-size: 328%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+    p,
+    table {
+        font-size: 160%;
+    }
+
+    .cover-text {
+        width: 436px;
+        height: 200px;
+        bottom: 120px;
+        left: 75px;
+    }
+
+    #nav-bar {
+        font-size: 150%;
+    }
+
+    .about-me h2,
+    .pricing h2,
+    .contact h2,
+    table,
+    td {
+        padding: 20px;
+    }
+
+    .about-me p,
+    .contact p {
+        padding: 20px 150px;
     }
 }
