@@ -7,22 +7,6 @@
     scroll-behavior: smooth;
 }
 
-/*fonts*/
-h1,
-h2,
-h3 {
-    font-family: Playfair Display, sans-serif;
-}
-
-p,
-span {
-    font-family: Lato, sans-serif;
-}
-
-hr {
-    border: 1px solid black;
-}
-
 /*hamburger-menu*/
 .hamburger-menu {
     background: rgba(0, 0, 0, .9);
@@ -59,9 +43,9 @@ hr {
 
 /*sections*/
 .home {
-    text-align: left;
     background-image: url('../images/IMG_03971.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .portfolio {
@@ -98,20 +82,16 @@ hr {
     background-color: rgba(0, 0, 0, .8);
     color: white;
     text-align: center;
-    padding: 1em;
-    font-size: 120%;
     width: 100vw;
 }
 
-.home,
-.portfolio,
-.about-me,
-.pricing,
-.contact {
-    font-size: 160%;
+.footer a {
+    text-decoration: none;
+    color: white;
 }
 
-/*phone screen layout*/
+/*responsive layout
+phone screen layout*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .video {
         width: 287px;
@@ -144,69 +124,11 @@ hr {
     }
 }
 
-/*TV screen layout*/
+/*tv screen layout*/
 @media screen and (min-width: 1201px) {
-
-    .home {
-        padding-top: 675px;
-        padding-left: 70px;
-        padding-bottom: 160px;
-        font-size: 160%;
-        width: 100vw;
-    }
-
-    .home>p {
-        padding: 5px 10px
-    }
-
-    .portfolio {
-        text-align: center;
-        padding-top: 25px;
-        font-size: 160%;
-        width: 100vw;
-    }
-
-    .portfolio>h3 {
-        padding-top: 18px;
-    }
-
     .video {
         width: 480px;
         height: 270px;
         padding: 25px 30px;
-    }
-
-    .about-me {
-        text-align: center;
-        background-color: #272f43;
-        color: #edecec;
-        padding-top: 25px;
-        font-size: 160%;
-    }
-
-    .pricing {
-        text-align: center;
-        padding-top: 25px;
-        font-size: 160%;
-    }
-
-    .contact {
-        text-align: center;
-        padding-top: 25px;
-    }
-
-    .footer>span {
-        margin: 12em 2em;
-    }
-
-    .socials {
-        font-size: 140%;
-    }
-
-    .about-me>p,
-    .pricing>p,
-    .contact>p {
-        padding: 40px 25px;
-        font-size: 70%;
     }
 }
