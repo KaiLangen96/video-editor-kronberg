@@ -14,13 +14,16 @@ h3 {
     font-family: Playfair Display, sans-serif;
 }
 
-p {
+p,
+span {
     font-family: Lato, sans-serif;
 }
 
 hr {
     border: 1px solid black;
 }
+
+.home>div {}
 
 /*hamburger-menu*/
 .hamburger-menu {
@@ -59,11 +62,15 @@ hr {
 /*sections*/
 .home {
     text-align: left;
+    background-image: url('../images/IMG_03971.jpg');
+    background-repeat: no-repeat;
 }
 
 .portfolio {
     text-align: center;
     padding-top: 25px;
+    background-color: #636c87;
+    color: #edecec;
 }
 
 .video {
@@ -87,100 +94,55 @@ hr {
     padding-top: 25px;
 }
 
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 120%;
+    width: 100vw;
+}
+
+.home,
+.portfolio,
+.about-me,
+.pricing,
+.contact {
+    font-size: 160%;
+}
+
 /*phone screen layout*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
-
-    .home {
-        padding-top: 54px;
-        padding-left: 35px;
-    }
-
-    .home>p {
-        padding: 5px 10px;
-    }
-
     .video {
         width: 287px;
         height: 159px;
-    }
-
-    .about-me>p,
-    .pricing>p,
-    .contact>p {
-        padding: 40px 25px;
     }
 }
 
 /*tablet screen layout*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
-
-    .home {
-        padding-top: 25px;
-        padding-left: 35px;
-    }
-
-    .home>p {
-        padding: 5px 10px;
-    }
-
     .video {
         width: 452px;
         height: 254px;
-    }
-
-    .about-me>p,
-    .pricing>p,
-    .contact>p {
-        padding: 40px 25px;
     }
 }
 
 /*laptop screen layout*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    .home {
-        padding-top: 25px;
-        padding-left: 35px;
-    }
-
-    .home>p {
-        padding: 5px 10px;
-    }
-
     .video {
         width: 555px;
         height: 312px;
-    }
-
-    .about-me>p,
-    .pricing>p,
-    .contact>p {
-        padding: 40px 25px;
     }
 }
 
 /*desktop screen layout*/
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-
-    .home {
-        padding-top: 25px;
-        padding-left: 35px;
-    }
-
-    .home>p {
-        padding: 5px 10px;
-    }
-
     .video {
         width: 470px;
         height: 264px;
         padding: 20px 14px;
-    }
-
-    .about-me>p,
-    .pricing>p,
-    .contact>p {
-        padding: 40px 25px;
     }
 }
 
@@ -188,20 +150,22 @@ hr {
 @media screen and (min-width: 1201px) {
 
     .home {
-        padding-top: 400px;
-        padding-left: 35px;
+        padding-top: 675px;
+        padding-left: 70px;
+        padding-bottom: 160px;
         font-size: 160%;
-        width: 387px;
+        width: 100vw;
     }
 
     .home>p {
-        padding: 5px 10px;
+        padding: 5px 10px
     }
 
     .portfolio {
         text-align: center;
         padding-top: 25px;
         font-size: 160%;
+        width: 100vw;
     }
 
     .portfolio>h3 {
@@ -228,13 +192,17 @@ hr {
         font-size: 160%;
     }
 
-    .pricing>p {
-        font-size: ;
-    }
-
     .contact {
         text-align: center;
         padding-top: 25px;
+    }
+
+    .footer>span {
+        margin: 12em 2em;
+    }
+
+    .socials {
+        font-size: 140%;
     }
 
     .about-me>p,
@@ -243,12 +211,4 @@ hr {
         padding: 40px 25px;
         font-size: 70%;
     }
-}
-
-.home,
-.portfolio,
-.about-me,
-.pricing,
-.contact {
-    font-size: 160%;
 }
