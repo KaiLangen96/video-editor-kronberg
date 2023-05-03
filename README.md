@@ -18,7 +18,7 @@ You can find her new website [here](https://kailangen96.github.io/video-editor-k
 
 ### Color Scheme
 
-![Colors used]()
+![Colors used](https://cdn.discordapp.com/attachments/1049024982694498367/1103345564919267399/image.png)
 
 ### Typography
 
