@@ -37,7 +37,7 @@ tr:nth-child(odd) {
 
 /*hamburger-menu*/
 .hamburger-menu {
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .9);
     position: fixed;
     text-align: center;
     z-index: 5;
