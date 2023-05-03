@@ -153,6 +153,44 @@ phone screen layout*/
         width: 452px;
         height: 254px;
     }
+
+    h1,
+    h2 {
+        font-size: 226%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+    p,
+    table {
+        font-size: 115%;
+    }
+
+    .cover-text {
+        width: 313px;
+        height: 80px;
+        bottom: 120px;
+        left: 30px;
+    }
+
+    #nav-bar {
+        font-size: 150%;
+    }
+
+    .about-me h2,
+    .pricing h2,
+    .contact h2,
+    table,
+    td {
+        padding: 20px;
+    }
+
+    .about-me p,
+    .contact p {
+        padding: 20px 45px;
+    }
 }
 
 /*laptop screen layout*/
