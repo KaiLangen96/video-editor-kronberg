@@ -157,7 +157,18 @@ As another testing method I used the following devices:
 
 ### Lighthouse
 
-After deploying my website I used Lighthouse as a tool to 
+After deploying my website I used Lighthouse as a tool to check for performance or accessibility issues.
+
+![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103348979778994186/image.png)
+
+* Performance
+  * In order to reach a higher performance score, I could have served my image in next-gen formats. Since I want to exchange the image with a video in later versions I don't mind that.
+* Accessibility
+  * Lighthouse had no suggestions for the accessibility of my website.
+* Best Practices
+  * In order to reach a higher best practices score, I would need to resolve issues regarding my embedding of the YouTube links in the portfolio. I will keep it in mind for later development.
+* SEO
+  * In order to....
 
 ### ChatGPT
 
