@@ -11,7 +11,7 @@
 h1,
 h2,
 h3 {
-    font-family: Playfair Display, sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
 p,
@@ -100,7 +100,7 @@ tr:nth-child(odd) {
 
 .about-me {
     text-align: center;
-    padding-top: 25px 0;
+    padding: 25px 0;
     background-color: #252A3B;
     color: #877D63;
 }
@@ -127,7 +127,6 @@ tr:nth-child(odd) {
     text-align: center;
     width: 100vw;
 }
-
 
 .footer a {
     text-decoration-line: none;
