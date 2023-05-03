@@ -145,6 +145,44 @@ phone screen layout*/
         width: 287px;
         height: 159px;
     }
+
+    h1,
+    h2 {
+        font-size: 208%;
+    }
+
+    h3 {
+        font-size: 138%;
+    }
+
+    p,
+    table {
+        font-size: 100%;
+    }
+
+    .cover-text {
+        width: 436px;
+        height: 490px;
+        bottom: 120px;
+        left: 75px;
+    }
+
+    #nav-bar {
+        font-size: 150%;
+    }
+
+    .about-me h2,
+    .pricing h2,
+    .contact h2,
+    table,
+    td {
+        padding: 20px;
+    }
+
+    .about-me p,
+    .contact p {
+        padding: 20px 150px;
+    }
 }
 
 /*tablet screen layout*/
