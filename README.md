@@ -1,39 +1,110 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Video Editor Hanna Kronberg
 
-Welcome,
+Hanna Kronberg is a freelancing video editor based in Sweden. She has been working with the two biggest swedish TV broadcasters, TV4 and SVT.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+You can find her new website [here]().
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+![Mock up of her website on different screens]()
 
-## Codeanywhere Reminders
+# User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## User Stories
 
-`python3 -m http.server`
+* As a user, I want to be able to understand what the page is about at a first look.
+* As a user, I want to be able to see some of her work to decide if she is the right editor.
+* As a user, I want to be able to access information about her prior work history.
+* As a user, I want to be able to see the pricing on her work.
+* As a user, I want to be able to contact her if I decide to book her.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Design
+### Color Scheme
+![Colors used]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Typography
+* 'Playfair Display' is used for the headers as it is simple to read while adding a better style
+* 'Lato' is used for paragraphs and the table as it pairs well with the headers.
 
-`http_server`
+### Imagery
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+As a video editor, the main content on the page is the portfolio with her edits. 
+* The [picture](assets/images/IMG_03971.jpg) for the home section was taken by Hanna Kronberg herself
+* The videos in the portfolio showing off her skills as an editor
+  
+### Overall Feel
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The main objective in creating this site was to make it easier for employeers to find and contact her as a freelancer. I wanted her work to be the most present resource on the site to succeed in my objective.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Wireframes
 
-To log into the Heroku toolbelt CLI:
+All wireframes show designs for phone, iPad/tablet and desktop displays.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* **Homepage** [wireframe]()
+* **Portfolio & About Me** [wireframe]()
+* **Pricing & Contact** [wireframe]()
+  
+At the start of the project the goal was to create three pages. While working on it I instead decided to create one scrollable page instead and split the Portfolio from About me and Pricing from Contact:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* **Homepage** [wireframe]()
+* **Portfolio** [wireframe]()
+* **About Me** [wireframe]()
+* **Pricing** [wireframe]()
+* **Contact** [wireframe]()
 
----
+# Features
+## Current Features
 
-Happy coding!
+* All pages are fully responsive for:
+* * below and to 480px: Mobile devices.
+* * 481px — 768px: iPads, Tablets.
+* * 769px — 1024px: Small screens, laptops.
+* * 1025px — 1200px: Desktops, large screens.
+* * 1201px and more — Extra large screens, TV.
+
+* A hamburger navigation menu.
+* Fully playable integrated YouTube videos.
+
+## Future Features
+* The navigation menu breaks open on a bigger screen size.
+* Open dialler app by clicking on the phone number.
+* Open mail app by clicking on the email address.
+* Online booking system linked to her calender for optimized booking process.
+
+# Technologies Used
+## Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks, Libraries & Programs Used
+* [Font Awesome](https://fontawesome.com/) used for icons. 
+* [Google Fonts](https://fonts.google.com/) used to import 'Playfair Display' & 'Lato' fonts.
+* [w3schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) used to create the navigation bar.
+* [GitHub](https://github.com/) used to host repository.
+* [CodeAnywhere](https://app.codeanywhere.com/) used as IDE.
+* [GitHub Pages](https://pages.github.com/) used to deploy the site.
+* [Balsamiq](https://balsamiq.com/) used to create wireframes.
+* [Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance review.
+
+# Testing
+## Validating
+Every day after finishing up I used the [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validators to make sure I did not create errors.
+
+## Testing User Stories from (UX) Section
+
+* _As a user, I want to be able to understand what the page is about at a first look._
+* As a user, I want to be able to see some of her work to decide if she is the right editor.
+* As a user, I want to be able to access information about her prior work history.
+* As a user, I want to be able to see the pricing on her work.
+* As a user, I want to be able to contact her if I decide to book her.
+
+## Special thanks to:
+
+[Code Institude](https://codeinstitute.net/), for teaching me the languages needed to create this page.
+
+[w3schools](https://www.w3schools.com/) for so many helpful pages and tools to support learning the languages.
+
+[Hanna Kronberg]() as the person I created this website for. I hope she can make good use out of it and clients can find her easier.
+
+[Adobe Color](https://color.adobe.com/create/color-wheel) helping me to find complementary colors for the template.
+
+Antonio Rodriguez, as my mentor. He was a great help and always replied when I needed him. 
