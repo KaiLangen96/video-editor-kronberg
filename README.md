@@ -34,7 +34,7 @@ As a video editor, the main content on the page is the portfolio with her edits.
   
 ### Overall Feel
 
-The main objective in creating this site was to make it easier for employeers to find and contact her as a freelancer. I wanted her work to be the most present resource on the site to succeed in my objective.
+The main objective in creating this site was to make it easier for employers to find and contact her as a freelancer. I wanted her work to be the most present resource on the site to succeed in my objective.
 
 ## Wireframes
 
