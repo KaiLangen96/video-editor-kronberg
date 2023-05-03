@@ -35,6 +35,15 @@ tr:nth-child(odd) {
     background-color: #F4FCF2;
 }
 
+label {
+    display: block;
+}
+
+textarea {
+    display: block;
+    width: 400px;
+}
+
 /*hamburger-menu*/
 .hamburger-menu {
     background: rgba(0, 0, 0, .9);
@@ -147,6 +156,7 @@ tr:nth-child(odd) {
 }
 
 .contact {
+    height: 100vh;
     text-align: center;
     padding: 25px 0;
     background-color: #657D5F;
@@ -156,6 +166,61 @@ tr:nth-child(odd) {
 .contact a {
     text-decoration: none;
     color: #fbfdfa;
+}
+
+/*contact form*/
+
+.contact-form {
+    color: #fbfdfa;
+    background-color: rgba(0, 0, 0, .8);
+    max-width: 400px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    bottom: -35%
+}
+
+.contact-form>h2 {
+    color: #fbfdfa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fbfdfa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fbfdfa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #657D5F;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+}
+
+.contact-me {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #657D5F;
+    color: #fbfbfb;
+    display: block;
+}
+
+.contact-me:hover {
+    background-color: #fbfbfb;
+    color: #657D5F;
 }
 
 .footer {
