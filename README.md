@@ -157,6 +157,8 @@ As another testing method I used the following devices:
 
 ### Lighthouse
 
+After deploying my website I used Lighthouse as a tool to 
+
 ### ChatGPT
 
 It might not yet be a valid source for testing, nonetheless I copied my code into [ChatGPT](https://chat.openai.com/) and asked it to optimize the code once I was done. I got the following response:
@@ -201,6 +203,6 @@ How did I deploy my project
 
 [Hanna Kronberg](https://www.linkedin.com/in/hanna-kronberg-534a2b199/), as the person I created this website for. I hope she can make good use out of it and clients can find her easier.
 
-[Adobe Color](https://color.adobe.com/create/color-wheel), helping me to find complementary colors for the template.
+[Coolors](https://coolors.co/636c87-657d5f-9cb097-b2c9ac-f4fcf2), helping me to create the color template used in [Color Scheme](#color-scheme).
 
 Antonio Rodriguez, as my mentor. He was a great help and always replied when I needed him.
