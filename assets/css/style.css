@@ -71,7 +71,7 @@ tr:nth-child(odd) {
 
 /*sections*/
 .home {
-    height: 1000px;
+    height: 100vh;
     width: 100%;
     background: url('../images/IMG_03971.jpg') no-repeat center center;
     position: relative;
@@ -121,17 +121,13 @@ tr:nth-child(odd) {
 }
 
 .footer {
-    position: fixed;
-    bottom: 0;
-    width: 98%;
-    height: 20px;
-    padding: 5px 15px;
-    background-color: rgba(0, 0, 0, .8);
-    color: #636C87;
-    text-align: center;
-    font-size: 120%;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .8);
+    color: #636C87;
 }
 
 .socials {
@@ -175,7 +171,7 @@ phone screen layout*/
     .cover-text {
         width: 208px;
         height: 490px;
-        bottom: 120px;
+        bottom: -246px;
         left: 14px;
     }
 
@@ -221,7 +217,7 @@ phone screen layout*/
     .cover-text {
         width: 313px;
         height: 80px;
-        bottom: 120px;
+        bottom: 130px;
         left: 30px;
     }
 
@@ -267,7 +263,7 @@ phone screen layout*/
     .cover-text {
         width: 436px;
         height: 200px;
-        bottom: 120px;
+        bottom: 70px;
         left: 75px;
     }
 
@@ -315,7 +311,7 @@ phone screen layout*/
     .cover-text {
         width: 436px;
         height: 200px;
-        bottom: 120px;
+        bottom: 80px;
         left: 75px;
     }
 
@@ -362,7 +358,7 @@ phone screen layout*/
     .cover-text {
         width: 436px;
         height: 200px;
-        bottom: 120px;
+        bottom: 100px;
         left: 75px;
     }
 
@@ -381,5 +377,12 @@ phone screen layout*/
     .about-me p,
     .contact p {
         padding: 20px 150px;
+    }
+
+    .footer {
+        width: 98%;
+        height: 20px;
+        padding: 5px 15px;
+        font-size: 120%;
     }
 }
