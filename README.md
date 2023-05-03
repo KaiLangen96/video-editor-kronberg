@@ -217,4 +217,4 @@ How did I deploy my project
 
 [Coolors](https://coolors.co/636c87-657d5f-9cb097-b2c9ac-f4fcf2), helping me to create the color template used in [Color Scheme](#color-scheme).
 
-Antonio Rodriguez, as my mentor. He was a great help and always replied when I needed him.
+[Antonio Rodriguez](https://www.linkedin.com/in/antonio-rodr%C3%ADguez-bb9b99b7/), as my mentor. He was a great help and always replied when I needed him.
