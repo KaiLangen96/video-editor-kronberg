@@ -123,19 +123,31 @@ tr:nth-child(odd) {
 .footer {
     position: fixed;
     bottom: 0;
+    width: 98%;
+    height: 20px;
+    padding: 5px 15px;
     background-color: rgba(0, 0, 0, .8);
-    color: white;
+    color: #636C87;
     text-align: center;
-    width: 100vw;
+    font-size: 120%;
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
 }
 
 .footer a {
     text-decoration-line: none;
-    color: white;
+    color: #636C87;
 }
 
-.socials li {
+.socials>li {
     display: inline;
+    margin: 1%;
 }
 
 /*responsive layout
