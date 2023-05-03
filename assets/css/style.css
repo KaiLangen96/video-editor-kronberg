@@ -214,12 +214,12 @@ textarea {
     text-align: center;
     font-size: 100%;
     background-color: #657D5F;
-    color: #fbfbfb;
+    color: #fbfdfa;
     display: block;
 }
 
 .contact-me:hover {
-    background-color: #fbfbfb;
+    background-color: #fbfdfa;
     color: #657D5F;
 }
 
