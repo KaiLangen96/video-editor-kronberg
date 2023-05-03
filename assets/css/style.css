@@ -70,23 +70,27 @@ tr:nth-child(odd) {
 }
 
 #desktop-menu {
+    text-align: center;
     display: none;
     width: 100%;
-    height: 100px;
+    height: 35px;
     background-color: rgba(0, 0, 0, .8);
-    color: white;
+    color: #fbfdfa;
 }
 
 #desktop-menu li {
     display: inline-block;
     min-width: 60px;
-
+    padding: 10px;
 }
 
 #desktop-menu li a {
-    color: white !important;
+    color: #fbfdfa !important;
     text-decoration: none;
-    padding: 10px 10px 10px 10px;
+}
+
+#desktop-menu li:hover {
+    background-color: #636C87;
 }
 
 /*sections*/
