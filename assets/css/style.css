@@ -161,10 +161,10 @@ phone screen layout*/
     }
 
     .cover-text {
-        width: 436px;
+        width: 208px;
         height: 490px;
         bottom: 120px;
-        left: 75px;
+        left: 14px;
     }
 
     #nav-bar {
@@ -176,12 +176,12 @@ phone screen layout*/
     .contact h2,
     table,
     td {
-        padding: 20px;
+        padding: 10px;
     }
 
     .about-me p,
     .contact p {
-        padding: 20px 150px;
+        padding: 20px 40px;
     }
 }
 
