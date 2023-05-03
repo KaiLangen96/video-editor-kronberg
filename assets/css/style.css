@@ -28,16 +28,16 @@ hr {
 table {
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #252A3B;
+    border: 1px solid black;
 }
 
 tr:nth-child(odd) {
-    background-color: #B0B9D4;
+    background-color: #F4FCF2;
 }
 
 /*hamburger-menu*/
 .hamburger-menu {
-    background: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, .3);
     position: fixed;
     text-align: center;
     z-index: 5;
@@ -66,7 +66,7 @@ tr:nth-child(odd) {
 
 .hamburger-menu a:hover {
     background-color: #636C87;
-    color: #636C87;
+    color: #fbfdfa;
 }
 
 /*sections*/
@@ -85,14 +85,14 @@ tr:nth-child(odd) {
 .home p {
     padding: 20px;
     background-color: #252a3bd0;
-    color: #B0B9D4;
+    color: #fbfdfa;
 }
 
 .portfolio {
     text-align: center;
     padding-top: 25px;
-    background-color: #636C87;
-    color: #B0B9D4;
+    background-color: #b2c9ac;
+    color: black;
 }
 
 .video {
@@ -102,22 +102,22 @@ tr:nth-child(odd) {
 .about-me {
     text-align: center;
     padding: 25px 0;
-    background-color: #252A3B;
-    color: #877D63;
+    background-color: #657D5F;
+    color: #fbfdfa;
 }
 
 .pricing {
     text-align: center;
     padding: 25px 0;
-    background-color: #636C87;
-    color: #252A3B;
+    background-color: #9CB097;
+    color: black;
 }
 
 .contact {
     text-align: center;
     padding: 25px 0;
-    background-color: #252A3B;
-    color: #877D63;
+    background-color: #657D5F;
+    color: #fbfdfa;
 }
 
 .footer {
@@ -127,7 +127,7 @@ tr:nth-child(odd) {
     bottom: 0;
     text-align: center;
     background-color: rgba(0, 0, 0, .8);
-    color: #636C87;
+    color: #fbfdfa;
 }
 
 .socials {
@@ -138,7 +138,7 @@ tr:nth-child(odd) {
 
 .footer a {
     text-decoration-line: none;
-    color: #636C87;
+    color: #fbfdfa;
 }
 
 .socials>li {
