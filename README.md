@@ -4,7 +4,7 @@ Hanna Kronberg is a freelancing video editor based in Sweden. She has experience
 
 You can find her new website [here](https://kailangen96.github.io/video-editor-kronberg/).
 
-![Mock up of her website on different screens](https://cdn.discordapp.com/attachments/1049024982694498367/1103342036750450769/image.png)
+![Mock up of her website on different screens](https://cdn.discordapp.com/attachments/1049024982694498367/1103428407380934686/image.png)
 
 # User Experience (UX)
 
