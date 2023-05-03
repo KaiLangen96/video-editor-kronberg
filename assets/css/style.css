@@ -170,6 +170,44 @@ phone screen layout*/
         height: 264px;
         padding: 20px 14px;
     }
+
+    h1,
+    h2 {
+        font-size: 328%;
+    }
+
+    h3 {
+        font-size: 200%;
+    }
+
+    p,
+    table {
+        font-size: 160%;
+    }
+
+    .cover-text {
+        width: 436px;
+        height: 200px;
+        bottom: 120px;
+        left: 75px;
+    }
+
+    #nav-bar {
+        font-size: 150%;
+    }
+
+    .about-me h2,
+    .pricing h2,
+    .contact h2,
+    table,
+    td {
+        padding: 20px;
+    }
+
+    .about-me p,
+    .contact p {
+        padding: 20px 150px;
+    }
 }
 
 /*tv screen layout*/
