@@ -85,7 +85,7 @@ tr:nth-child(odd) {
 }
 
 #desktop-menu li a {
-    color: #fbfdfa !important;
+    color: #fbfdfa;
     text-decoration: none;
 }
 
@@ -119,6 +119,11 @@ tr:nth-child(odd) {
     color: black;
 }
 
+.portfolio a {
+    text-decoration: none;
+    color: black;
+}
+
 .video {
     padding: 20px 0;
 }
@@ -141,6 +146,11 @@ tr:nth-child(odd) {
     text-align: center;
     padding: 25px 0;
     background-color: #657D5F;
+    color: #fbfdfa;
+}
+
+.contact a {
+    text-decoration: none;
     color: #fbfdfa;
 }
 
