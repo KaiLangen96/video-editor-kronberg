@@ -30,7 +30,7 @@ You can find her new website [here](https://kailangen96.github.io/video-editor-k
 As a video editor, the main content on the page is the portfolio with her edits.
 
 * The [picture](assets/images/IMG_03971.jpg) for the home section was taken by Hanna Kronberg herself
-* The videos in the portfolio showing off her skills as an editor
+* The videos embedded in the portfolio section are examples of projects in which Hanna contributed
   
 ### Overall Feel
 
@@ -52,20 +52,20 @@ At the start of the project the goal was to create three pages. While working on
 
 * All pages are fully responsive for:
   * below and to 480px: Mobile devices.
-    * 481px — 768px: iPads, Tablets.
-    * 769px — 1024px: Small screens, laptops.
-    * 1025px — 1200px: Desktops, large screens.
-    * 1201px and more — Extra large screens, TV.
+  * 481px — 768px: iPads, Tablets.
+  * 769px — 1024px: Small screens, laptops.
+  * 1025px — 1200px: Desktops, large screens.
+  * 1201px and more — Extra large screens, TV.
 
 * A navigation menu which transforms into a hamburger navigation menu for smaller screens.
 * Fully playable integrated YouTube videos.
-* Clicking on the "me" of the text "For more references just ask me." in the portfolio section will open the mailing program (if installed) for faster connectability
-* Clicking on the email address in the contact section will open mailing program (if installed) for faster connectability
+* Clicking on the "me" of the text "For more references just ask me." in the portfolio section will open a mailing program (if installed) for faster connectability
+* Clicking on the email address in the contact section will open a mailing program (if installed) for faster connectability
 
 ## Future Features
 
-* Online booking system linked to her calender for optimized booking process.
-* A video playing as background of the Home section.
+* An online booking system linked to her calender for optimized booking process.
+* A video playing as background of the home section.
 
 # Technologies Used
 
@@ -77,13 +77,13 @@ At the start of the project the goal was to create three pages. While working on
 
 ## Frameworks, Libraries & Programs Used
 
+* [Balsamiq](https://balsamiq.com/) used to create wireframes.
+* [GitHub](https://github.com/) used to host repository.
+* [CodeAnywhere](https://app.codeanywhere.com/) used as IDE.
 * [Font Awesome](https://fontawesome.com/) used for icons.
 * [Google Fonts](https://fonts.google.com/) used to import 'Playfair Display' & 'Lato' fonts.
 * [w3schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) used to create the navigation bar.
-* [GitHub](https://github.com/) used to host repository.
-* [CodeAnywhere](https://app.codeanywhere.com/) used as IDE.
 * [GitHub Pages](https://pages.github.com/) used to deploy the site.
-* [Balsamiq](https://balsamiq.com/) used to create wireframes.
 * [Lighthouse](https://developers.google.com/web/tools/lighthouse) for performance review.
 
 # Testing
@@ -113,9 +113,9 @@ Every day after finishing up I used the [HTML](https://validator.w3.org/) and [C
 * _As a user, I want to be able to see the pricing on her work._
   * For the costs of booking Hanna for different times is a table created in the Pricing section.
 * _As a user, I want to be able to contact her if I decide to book her._
-  * To contact Hanna I implemented her email address in the contact section. On click it will open the mail program (if installed).
-  * Underneith the email address is a contact form to get in contact with Hanna.
-  * As another way of contacting Hanna you can each out to her on her socials in the footer.
+  * To contact Hanna I, embedded her email address in the contact section. On click on it, it will open the mail program (if installed).
+  * Underneath the email address is a contact form to get in contact with Hanna.
+  * As another way of contacting Hanna, you can each out to her on her socials in the footer.
 
 ## Further Testing
 
@@ -125,7 +125,7 @@ As another testing method I used the following devices:
 
 #### Computers
 
-* Custom Build PC 1
+* Custom Build PC 1 (screen resolution 1920x1080)
   * Google Chrome ( incl. dev. tools)
     * iPhone SE
     * iPhone XR
@@ -144,8 +144,6 @@ As another testing method I used the following devices:
   * Microsoft Edge
   * Opera
   * Mozilla Firefox
-* Custom Build PC 2
-  * Google Chrome
 
 #### Phones
 
@@ -158,12 +156,12 @@ As another testing method I used the following devices:
 
 ### Lighthouse
 
-After deploying my website I used Lighthouse as a tool to check for performance or accessibility issues.
+After deploying my website, I used Lighthouse as a tool to check for performance or accessibility issues.
 
 ![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103425641338114259/image.png)
 
 * Performance
-  * In order to reach a higher performance score, I could have served my image in next-gen formats. Since I want to exchange the image with a video in later versions I don't mind that.
+  * In order to reach a higher performance score, I could have served my image in next-gen formats. Since I want to exchange the image with a video in later versions, I don't mind that.
 * Accessibility
   * Lighthouse had no suggestions for the accessibility of my website.
 * Best Practices
@@ -178,7 +176,7 @@ It might not yet be a valid source for testing, nonetheless I copied my code int
 > The code seems to be relatively simple and optimized already. However, here are a few suggestions to improve it: [...]
 > The CSS code provided is already well-organized and structured. Here are some minor optimizations that can be done to further improve the code: [...]
 
-The suggestions and minor optimizations that ChatGPT gave me as a response felt unneccesary and I decided to not implement them.
+The suggestions and minor optimizations that ChatGPT gave me as a response felt unnecessary and I decided to not implement them.
 
 ## Bugs & Fixes
 
@@ -196,7 +194,7 @@ How did I deploy my project
 
 ## Code
 
-* I added the [example](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) given by w3schools to help me create a navigation bar.
+* I added in the [example](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar) given by w3schools to help me create a navigation bar.
 
 ## Content
 
