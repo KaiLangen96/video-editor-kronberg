@@ -57,14 +57,13 @@ At the start of the project the goal was to create three pages. While working on
     * 1025px — 1200px: Desktops, large screens.
     * 1201px and more — Extra large screens, TV.
 
-* A hamburger navigation menu.
+* A navigation menu which transforms into a hamburger navigation menu for smaller screens.
 * Fully playable integrated YouTube videos.
+* Clicking on the "me" of the text "For more references just ask me." in the portfolio section will open the mailing program (if installed) for faster connectability
+* Clicking on the email address in the contact section will open mailing program (if installed) for faster connectability
 
 ## Future Features
 
-* The navigation menu breaks open on a bigger screen size.
-* Open dialler app by clicking on the phone number.
-* Open mail app by clicking on the email address.
 * Online booking system linked to her calender for optimized booking process.
 * A video playing as background of the Home section.
 
@@ -97,11 +96,11 @@ Every day after finishing up I used the [HTML](https://validator.w3.org/) and [C
 
 #### HTML
 
-![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103229303828795432/image.png)
+![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103424850887979018/image.png)
 
 #### CSS
 
-![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103229546297307136/image.png)
+![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103424715646845069/image.png)
 
 ## Testing User Stories from (UX) Section
 
@@ -114,7 +113,8 @@ Every day after finishing up I used the [HTML](https://validator.w3.org/) and [C
 * _As a user, I want to be able to see the pricing on her work._
   * For the costs of booking Hanna for different times is a table created in the Pricing section.
 * _As a user, I want to be able to contact her if I decide to book her._
-  * To contact Hanna I implemented her email address in the contact section.
+  * To contact Hanna I implemented her email address in the contact section. On click it will open the mail program (if installed).
+  * Underneith the email address is a contact form to get in contact with Hanna.
   * As another way of contacting Hanna you can each out to her on her socials in the footer.
 
 ## Further Testing
@@ -160,16 +160,16 @@ As another testing method I used the following devices:
 
 After deploying my website I used Lighthouse as a tool to check for performance or accessibility issues.
 
-![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103348979778994186/image.png)
+![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103425641338114259/image.png)
 
 * Performance
   * In order to reach a higher performance score, I could have served my image in next-gen formats. Since I want to exchange the image with a video in later versions I don't mind that.
 * Accessibility
   * Lighthouse had no suggestions for the accessibility of my website.
 * Best Practices
-  * In order to reach a higher best practices score, I would need to resolve issues regarding my embedding of the YouTube links in the portfolio. I will keep it in mind for later development.
+  * Lighthouse had no suggestions for the practices of my website.
 * SEO
-  * In order to....
+  * Lighthouse had no suggestions for the SEO of my website.
 
 ### ChatGPT
 
