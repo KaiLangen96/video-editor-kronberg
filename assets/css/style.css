@@ -65,8 +65,8 @@ tr:nth-child(odd) {
 }
 
 .hamburger-menu a:hover {
-    background-color: #636c87;
-    color: #edecec;
+    background-color: #636C87;
+    color: #636C87;
 }
 
 /*sections*/
