@@ -140,7 +140,7 @@ tr:nth-child(odd) {
 
 /*responsive layout
 phone screen layout*/
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .video {
         width: 287px;
         height: 159px;
