@@ -187,9 +187,15 @@ The suggestions and minor optimizations that ChatGPT gave me as a response felt 
 
 ## Bugs & Fixes
 
-* The videos were not able to load
+* Videos were not able to load
   * Instead of using the YouTube links provided by Hanna, I opened the link and with a right click on the video copied the embed code directly and removed the frameborder property.
   * Instead of using Facebook videos, I asked Hanna to provide me with more YouTube links.
+
+* Pagelayout broken for 320px width
+  * The layout broke because I did not adjust the contact form in width for smaller screens which caused an overflow on the x-axis. I fixed this bug by applying the correct style to the contact form for the phone screen section.
+
+* Background image too small for very big screens
+  * The background image was too small for very big screens. To fix that I added the overflow: cover property to the background image.
 
 # Deployment
 
