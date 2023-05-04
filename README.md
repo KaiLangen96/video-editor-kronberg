@@ -188,7 +188,14 @@ The suggestions and minor optimizations that ChatGPT gave me as a response felt 
 
 ## Deployment through GitHub Pages
 
-How did I deploy my project
+1. Log in [GitHub](https://github.com/).
+2. Open this [repository](https://github.com/KaiLangen96/video-editor-kronberg).
+3. Locate the [settings](https://github.com/KaiLangen96/video-editor-kronberg/settings) cogwheel.
+4. On the left hand side under "Code and automation" is the option [pages](https://github.com/KaiLangen96/video-editor-kronberg/settings/pages) located.
+5. Under "Build and deployment" locate the "Branch" section.
+6. Change the "None" dropdown to "main" and save.
+7. After some time the site will be published and accessible.
+8. The link can be found above the "Build and deployment" in the "GitHub Pages".
 
 # Credits
 
