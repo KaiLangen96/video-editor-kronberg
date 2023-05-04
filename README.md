@@ -4,7 +4,7 @@ Hanna Kronberg is a freelancing video editor based in Sweden. She has experience
 
 You can find her new website [here](https://kailangen96.github.io/video-editor-kronberg/).
 
-![Mock up of her website on different screens](https://cdn.discordapp.com/attachments/1049024982694498367/1103428407380934686/image.png)
+![Mock up of her website on different screens](https://cdn.discordapp.com/attachments/1049024982694498367/1103594253667532860/image.png)
 
 # User Experience (UX)
 
@@ -97,13 +97,15 @@ Every day after finishing up I used the [HTML](https://validator.w3.org/) and [C
 
 #### HTML
 
-![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103580892393373736/image.png)
-latest test ~09:20 04.05.2023
+![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103593813450170449/image.png)
+
+latest test ~10:10 04.05.2023
 
 #### CSS
 
-![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103581036945874944/image.png)
-latest test ~09:20 04.05.2023
+![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103593914826510347/image.png)
+
+latest test ~10:10 04.05.2023
 
 ## Testing User Stories from (UX) Section
 
@@ -161,8 +163,9 @@ As another testing method I used the following devices:
 
 After deploying my website, I used Lighthouse as a tool to check for performance or accessibility issues.
 
-![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103582037685846036/image.png)
-latest test ~09:20 04.05.2023
+![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103594841767677962/image.png)
+
+latest test ~10:10 04.05.2023
 
 * Performance
   * Lighthouse had no suggestions to optimize the performance of my website.
