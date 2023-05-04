@@ -5,6 +5,7 @@
     margin: 0;
     border: none;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 /*fonts*/
@@ -110,7 +111,7 @@ textarea {
 .home {
     height: 100vh;
     width: 100%;
-    background: url('../images/IMG_03971.jpg') no-repeat center center;
+    background: url('../images/IMG_03971.jpg') no-repeat center center / cover;
     position: relative;
 }
 
@@ -303,8 +304,25 @@ phone screen layout*/
         font-size: 80%;
     }
 
-    .footer span {
+    .copyright {
         margin-right: 30px;
+    }
+
+    .socials {
+        width: 80px;
+    }
+
+    .socials>li {
+        margin: 2px;
+    }
+
+    .contact-form {
+        max-width: 270px;
+        bottom: -38%
+    }
+
+    textarea {
+        width: 270px;
     }
 }
 
