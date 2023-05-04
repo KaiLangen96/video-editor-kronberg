@@ -62,10 +62,11 @@ At the start of the project the goal was to create three pages. While working on
 * Clicking on the "me" of the text "For more references just ask me." in the portfolio section will open a mailing program (if installed) for faster connectability
 * Clicking on the email address in the contact section will open a mailing program (if installed) for faster connectability
 
-## Future Features
+## Upcoming Features
 
 * An online booking system linked to her calender for optimized booking process.
 * A video playing as background of the home section.
+* The TOS in the bottom right corner will open a window hovering over the website to show the TOS.
 
 # Technologies Used
 
@@ -222,4 +223,4 @@ The suggestions and minor optimizations that ChatGPT gave me as a response felt 
 
 [Coolors](https://coolors.co/636c87-657d5f-9cb097-b2c9ac-f4fcf2), helping me to create the color template used in [Color Scheme](#color-scheme).
 
-[Antonio Rodriguez](https://www.linkedin.com/in/antonio-rodr%C3%ADguez-bb9b99b7/), as my mentor. He was a great help and always replied when I needed him.
+[Antonio Rodríguez](https://www.linkedin.com/in/antonio-rodr%C3%ADguez-bb9b99b7/), as my mentor. He was a great help and always replied when I needed him.
