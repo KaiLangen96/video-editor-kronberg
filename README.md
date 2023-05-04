@@ -97,11 +97,13 @@ Every day after finishing up I used the [HTML](https://validator.w3.org/) and [C
 
 #### HTML
 
-![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103424850887979018/image.png)
+![Image of the latest HTML validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103580892393373736/image.png)
+latest test ~09:20 04.05.2023
 
 #### CSS
 
-![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103424715646845069/image.png)
+![Image of the latest CSS validation](https://cdn.discordapp.com/attachments/1049024982694498367/1103581036945874944/image.png)
+latest test ~09:20 04.05.2023
 
 ## Testing User Stories from (UX) Section
 
@@ -159,16 +161,17 @@ As another testing method I used the following devices:
 
 After deploying my website, I used Lighthouse as a tool to check for performance or accessibility issues.
 
-![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103425641338114259/image.png)
+![Lighthouse results](https://cdn.discordapp.com/attachments/1049024982694498367/1103582037685846036/image.png)
+latest test ~09:20 04.05.2023
 
 * Performance
-  * In order to reach a higher performance score, I could have served my image in next-gen formats. Since I want to exchange the image with a video in later versions, I don't mind that.
+  * Lighthouse had no suggestions to optimize the performance of my website.
 * Accessibility
-  * Lighthouse had no suggestions for the accessibility of my website.
+  * Lighthouse had no suggestions to optimize the accessibility of my website.
 * Best Practices
-  * Lighthouse had no suggestions for the practices of my website.
+  * Lighthouse had no suggestions to optimize the practices of my website.
 * SEO
-  * Lighthouse had no suggestions for the SEO of my website.
+  * Lighthouse had no suggestions to optimize the SEO of my website.
 
 ### ChatGPT
 
